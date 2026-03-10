@@ -16,7 +16,7 @@
         <div>
             <form class="form-remove-<?= esc($count); ?> form-remove" action="delete" method="POST" style="display: none;">
                 <input type="hidden" name="remove-id" value="<?= esc($news_item['id']); ?>">
-                <input class="form-send button-send" type="submit" name="submit-form" value="Send remove">
+                <input class="form-send button-send" type="submit" name="submit-form" value="Confirm remove">
             </form>
         </div>
         <p><a  class='remove-news' onclick='remove(<?= esc($count); ?>);' href="#remove">Click to remove</a></p>

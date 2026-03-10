@@ -217,6 +217,9 @@
             <li class="menu-item hidden">
                 <a href="#about-project">Edited</a>
             </li>
+            <li class="menu-item hidden">
+                <a href="#crud-project">Crud</a>
+            </li>
             <li>
                 <a href="#some-works">Some works</a>
             </li>
@@ -287,7 +290,7 @@
         div.trace-content { width: 270px; margin: 0px auto !important; }
     </style>
     <div class="trace-content">------------------------------------------</div>
-    <section>
+    <section id="crud-project"> 
         <h1>Crud system - ci</h1>
         <h3>Itens added controller / routes / models</h3>
         <nav id="edited-project">
